@@ -125,9 +125,9 @@ public class Week3and4 {
 
         // Sample Input
         Trade[] trades = {
-                new Trade("trade3", 500),
-                new Trade("trade1", 100),
-                new Trade("trade2", 300)
+            new Trade("trade3", 500),
+            new Trade("trade1", 100),
+            new Trade("trade2", 300)
         };
 
         System.out.println("Original Trades:");
@@ -149,13 +149,13 @@ public class Week3and4 {
 
         // 🔹 Merge two sorted lists (example: morning & afternoon)
         Trade[] morning = {
-                new Trade("m1", 100),
-                new Trade("m2", 400)
+            new Trade("m1", 100),
+            new Trade("m2", 400)
         };
 
         Trade[] afternoon = {
-                new Trade("a1", 200),
-                new Trade("a2", 300)
+            new Trade("a1", 200),
+            new Trade("a2", 300)
         };
 
         // Sort both before merging
